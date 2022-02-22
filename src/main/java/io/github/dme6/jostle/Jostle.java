@@ -5,11 +5,13 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 import java.nio.Buffer;
+import java.util.Arrays;
 
 public class Jostle
 {
     public static void main( String[] args ) throws IOException {
         File[] in = new File("./frames_in").listFiles();
+        Arrays.sort(in);
 
         int imgCount = 0;
 
