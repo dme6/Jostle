@@ -7,4 +7,7 @@ A lazy recreation of PRS's new animation technique.
 
 Simply build a jar with Maven, put frames into the "frames_in" folder, and run the program.
 
-![Demo](https://raw.githubusercontent.com/dme6/Jostle/main/github/demo2.gif)
+## Results
+
+![Demo2](https://raw.githubusercontent.com/dme6/Jostle/main/github/demo2.gif)
+![Demo3](https://raw.githubusercontent.com/dme6/Jostle/main/github/demo3.gif)

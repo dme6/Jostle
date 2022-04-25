@@ -7,8 +7,8 @@ import java.io.IOException;
 import java.nio.Buffer;
 import java.util.Arrays;
 
-public class Jostle
-{
+public class Jostle {
+
     public static void main( String[] args ) throws IOException {
         File[] in = new File("./frames_in").listFiles();
         Arrays.sort(in);
@@ -65,7 +65,7 @@ public class Jostle
             imgCount += 4;
 
             for(int i = 0; i < outImgs.length; i++) {
-                ImageIO.write(outImgs[i], "JPG", new File("./frames_out/" + String.valueOf(imgCount - 3 + i) + ".jpg"));
+                ImageIO.write(outImgs[i], "PNG", new File("./frames_out/" + String.valueOf(imgCount - 3 + i) + ".png"));
             }
 
         }
